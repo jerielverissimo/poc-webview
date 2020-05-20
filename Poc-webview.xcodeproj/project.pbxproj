@@ -14,6 +14,7 @@
 		9F21738324758EB8008631B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F21738224758EB8008631B5 /* Assets.xcassets */; };
 		9F21738624758EB8008631B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F21738424758EB8008631B5 /* LaunchScreen.storyboard */; };
 		9F21739124758EB8008631B5 /* Poc_webviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21739024758EB8008631B5 /* Poc_webviewTests.swift */; };
+		9F21739C247592D8008631B5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21739B247592D8008631B5 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		9F21738C24758EB8008631B5 /* Poc-webviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poc-webviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F21739024758EB8008631B5 /* Poc_webviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poc_webviewTests.swift; sourceTree = "<group>"; };
 		9F21739224758EB8008631B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F21739B247592D8008631B5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				9F21738224758EB8008631B5 /* Assets.xcassets */,
 				9F21738424758EB8008631B5 /* LaunchScreen.storyboard */,
 				9F21738724758EB8008631B5 /* Info.plist */,
+				9F21739B247592D8008631B5 /* WebView.swift */,
 			);
 			path = "Poc-webview";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F21737E24758EAE008631B5 /* ViewController.swift in Sources */,
+				9F21739C247592D8008631B5 /* WebView.swift in Sources */,
 				9F21737A24758EAE008631B5 /* AppDelegate.swift in Sources */,
 				9F21737C24758EAE008631B5 /* SceneDelegate.swift in Sources */,
 			);
